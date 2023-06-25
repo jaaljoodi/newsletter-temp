@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap');
+
+* {
+  margin: 0
+}
+
+body {
+  margin: 100px auto;
+  background-image: url("Assets/Background.png");
+  background-size: cover;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  width: 430px;
+  height: 50px;
+  display: block;
+}
+
+.borderline {
+  border: 4px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 1px auto;
+}
+
+.box-one {
+  margin-bottom: -20px;
+}
+
+
+/* Box one  */
+.main-title {
+  background: url(Assets/Pattern.png);
+  background-color: hsl(224deg, 89%, 55%);
+  font-size: 23px;
+  color: #fff;
+  padding: 50px 60px;
+  font-weight: light;
+  font-size: 26px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* height: 40px; */
+}
+
+/* Box two */
+.box-two {
+  background-color: #fff;
+  height: 330px;
+  margin-top: -20px;
+  padding-top: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box-two-first-text {
+  margin: 1px auto 30px;
+  color: #6c757d;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  width: 100%;
+  padding: 1px;
+}
+
+/* Button and input field */
+
+.input-btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.input-box {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  background-color: #e9eaeb;
+  padding: 15px 100px 15px 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  font-family: 'Work Sans', sans-serif;
+  background-color: hsl(224deg, 89%, 55%);
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Second text for "no spam etc.." */
+.second-text {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #9f9f9f;
+  padding-left: 30px;
+  margin: -20px 0 10px;
+}
+
+/* Avatar section */
+
+.avatar-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.user-container {
+  margin-top: 5px;
+  margin-left: -6%;
+  padding-left: -60%;
+}
+
+.avatar {
+  padding-right: -30px;
+  padding-left: -30px;
+}
+
+.user-title {
+  color: #6c757d;
+  padding-left: 30px;
+}
+
+.foooter {
+  margin: 15px auto 30px;
+  color: #6c757d;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  padding: 30px;
+  margin-top: -20px;
+}
+
+.attribution {
+  margin-top: 15px;
+}
+
+
